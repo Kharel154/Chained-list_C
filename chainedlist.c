@@ -106,20 +106,20 @@ int main(){
 
 			case 2:
 				
-                                printf("\nEnter the number : ");
-                                scanf("%d",&a);
-                                list=insertend(list,a);
-                                printf("\n %d has been succesfuly inserted at the end \n",a);
+                printf("\nEnter the number : ");
+				scanf("%d",&a);
+				list=insertend(list,a);
+				printf("\n %d has been succesfuly inserted at the end \n",a);
 				break;
 
 			case 3:
 				display(list);
 				break;
 			case 4:
-                                freelist(list);
+                freelist(list);
 				list=NULL;
-                                printf("The list has been freed succesfully\n");
-                                break;
+				printf("The list has been freed succesfully\n");
+				break;
 			case 5:
 				freelist(list);
 				flag=false;
